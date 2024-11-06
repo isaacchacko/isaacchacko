@@ -1,7 +1,7 @@
-# 👋 Hi there! I'm [Your Name]
+# 👋 Howdy! I'm Isaac Chacko
 
 <div align="center">
-  <img src="https://your-profile-image-url.com" alt="Profile Image" width="200" height="200" style="border-radius: 50%;">
+  <img src="/src/headshot.jpg" alt="Profile Image" width="200" height="200" style="border-radius: 50%;">
 </div>
 
 ## 🌐 Connect with me
