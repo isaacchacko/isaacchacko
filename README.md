@@ -5,7 +5,7 @@
   <a href="https://www.isaacchacko.co/" class="inline-flex items-center px-3 py-1 bg-gray-700 text-white rounded-full shadow-md hover:bg-gray-600 transition duration-200">
     <img src="https://img.shields.io/badge/Website-3b5998?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" class="h-5 mr-1">
   </a>
-  <a href="https://drive.google.com/file/d/1-NBdX32Opo2ajMpDpWgXaQkyOQ9KzdcP/view?usp=sharing" class="inline-flex items-center px-3 py-1 bg-green-700 text-white rounded-full shadow-md hover:bg-green-600 transition duration-200">
+  <a href="https://www.isaacchacko.co/Isaac_Chacko.pdf" class="inline-flex items-center px-3 py-1 bg-green-700 text-white rounded-full shadow-md hover:bg-green-600 transition duration-200">
     <img src="https://img.shields.io/badge/Resume-00A98F?style=for-the-badge&logo=readme&logoColor=white" alt="Resume" class="h-5 mr-1">
   </a>
   <a href="mailto:isaac.chacko05@tamu.edu" class="inline-flex items-center px-3 py-1 bg-red-700 text-white rounded-full shadow-md hover:bg-red-600 transition duration-200">
