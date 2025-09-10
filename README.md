@@ -1,4 +1,3 @@
-
 # 👋 Howdy! I'm Isaac Chacko
 
 <div class="flex flex-wrap items-center justify-center gap-2">
@@ -11,7 +10,7 @@
   <a href="mailto:isaac.chacko05@tamu.edu" class="inline-flex items-center px-3 py-1 bg-red-700 text-white rounded-full shadow-md hover:bg-red-600 transition duration-200">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" class="h-5 mr-1">
   </a>
-  <a href="https://discordapp.com/users/stickititswinnable" class="inline-flex items-center px-3 py-1 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-600 transition duration-200">
+  <a href="https://discordapp.com/users/isaacchacko" class="inline-flex items-center px-3 py-1 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-600 transition duration-200">
     <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" class="h-5 mr-1">
   </a>
 </div>
