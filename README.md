@@ -20,7 +20,7 @@
 
 ## About Me
 
-I'm a **Computer Science and Applied Mathematics** student at [Texas A&M University](https://www.tamu.edu/) (Class of '28) currently based in College Station, TX. I'm passionate about **backend development** and have previously interned at [SISO](https://www.siso-eng.com) and [LUMINARE](https://luminare.io). 
+I'm a **Computer Science** student at [Texas A&M University](https://www.tamu.edu/) (Class of '27) currently based in College Station, TX. I'm passionate about **backend development** and have previously interned at [SISO](https://www.siso-eng.com) and [LUMINARE](https://luminare.io). 
 
 When I'm not coding, you'll find me training for half-marathons 🏃‍♂️ or exploring new technologies and side projects.
 
