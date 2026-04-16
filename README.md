@@ -1,5 +1,15 @@
-<img
-  src="https://gh-readme-chi.vercel.app/api/weather"
-  alt="Isaac Chacko profile as formatted JSON SVG"
-  width="980"
-/>
+```json
+{
+  who: "Isaac Chacko",
+  what: "Software Engineer",
+  where: "Dryft",
+  city: "San Francisco, CA",
+  weather: weatherSnippet,
+  focus: [
+    "full-stack development",
+    "automation",
+    "developer tools"
+  ]
+}
+```
+```
