@@ -1,5 +1,4 @@
 ```json
-```
 {
   "name": "Isaac Chacko",
   "website": "https://yourwebsite.com",
@@ -18,5 +17,4 @@
     "linkedin": "https://linkedin.com/in/your-handle"
   }
 }
-```
 ```
