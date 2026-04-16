@@ -1,20 +1,5 @@
-```json
-{
-  "name": "Isaac Chacko",
-  "website": "https://yourwebsite.com",
-  "workingAt": "Your Company",
-  "role": "Engineer",
-  "basedIn": "College Station, Texas",
-  "currentlyAt": "cstat, txt",
-  "weather": "<snippet>",
-  "focus": [
-    "full-stack development",
-    "automation",
-    "developer tools"
-  ],
-  "links": {
-    "github": "https://github.com/your-username",
-    "linkedin": "https://linkedin.com/in/your-handle"
-  }
-}
-```
+<img
+  src="https://your-project.vercel.app/api/profile-json"
+  alt="Isaac Chacko profile as formatted JSON SVG"
+  width="980"
+/>
