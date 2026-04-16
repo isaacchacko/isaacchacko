@@ -4,10 +4,10 @@
   "what": "Software Engineer",
   "where": "Dryft",
   "city": "San Francisco, CA",
-  "focus": [
-    "full-stack development",
-    "automation",
-    "developer tools"
-  ]
+  "os": "Arch"
+  "links": {
+  "website": "https://isaacchacko.com",
+  "linkedin": "https://linkedin.com/in/isaacchacko"
+}
 }
 ```
