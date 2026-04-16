@@ -1,11 +1,11 @@
 
 
-- **who**: Isaac Chacko
-- **what**: Software Engineer
-- **where**: Dryft
-- **city**: San Francisco, CA
-- **os**: Arch
-- **links**:
+- **Who**: Isaac Chacko
+- **What**: Software Engineer
+- **Where**: Dryft
+- **City**: San Francisco, CA
+- **OS**: Arch
+- **Links**:
   - [isaacchacko.com](https://isaacchacko.com)
   - [aggier.ing](https://aggier.ing)
   - [linkedin](https://linkedin.com/in/isaacchacko)
