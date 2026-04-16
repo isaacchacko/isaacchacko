@@ -1,6 +1,6 @@
 ```json
 {
-  who: "Isaac Chacko"
+  "who": "Isaac Chacko"
 }
 ```
 
