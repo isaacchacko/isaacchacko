@@ -11,7 +11,7 @@ PROFILE_USERNAME="${PROFILE_USERNAME:-isaacchacko}"
 CITY_ENCODED="$(jq -nr --arg city "$CITY" '$city|@uri')"
 WEATHER_JSON="$(curl -fsSL "https://wttr.in/${CITY_ENCODED}?format=j1")"
 TEMP_F="$(echo "$WEATHER_JSON" | jq -r '.current_condition[0].temp_F')"
-WEATHER_DESC="$(echo "$WEATHER_JSON" | jq -r '.current_condition[0].weatherDesc[0].value')"
+WEATHER_DESC="$(echo "$WEATHER_JSON" | jq -r '.current_condition[0].weatherDesc[0].value' | tr '[:upper:]' '[:lower:]')"
 
 if [[ -z "$TEMP_F" || "$TEMP_F" == "null" ]]; then
   TEMP_F="N/A"
