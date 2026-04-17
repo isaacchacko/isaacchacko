@@ -3,6 +3,7 @@
 Isaac Chacko
 ---
 
+![Spotify](https://gh-readme-chi.vercel.app/api/spotify)
 ```json
 {
   "who": "isaacchacko",

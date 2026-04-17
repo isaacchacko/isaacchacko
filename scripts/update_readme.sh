@@ -8,7 +8,8 @@ PROFILE_USERNAME="${PROFILE_USERNAME:-isaacchacko}"
 
 # --- Weather from wttr.in (no API key needed) ---
 # Example payload includes current_condition[0].temp_F and weatherDesc[0].value
-WEATHER_JSON="$(curl -fsSL "https://wttr.in/${CITY}?format=j1")"
+CITY_ENCODED="$(jq -nr --arg city "$CITY" '$city|@uri')"
+WEATHER_JSON="$(curl -fsSL "https://wttr.in/${CITY_ENCODED}?format=j1")"
 TEMP_F="$(echo "$WEATHER_JSON" | jq -r '.current_condition[0].temp_F')"
 WEATHER_DESC="$(echo "$WEATHER_JSON" | jq -r '.current_condition[0].weatherDesc[0].value')"
 
