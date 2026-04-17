@@ -15,7 +15,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     env:
-      CITY: "College Station, TX"    # change this later to swap city
+      CITY: "San Francisco, CA"    # change this later to swap city
       PROFILE_USERNAME: "isaacchacko" # for profile view counter endpoint
     steps:
       - name: Checkout

@@ -3,7 +3,7 @@ set -euo pipefail
 
 README_PATH="README.md"
 README_TEMPLATE_PATH="README.template.md"
-CITY="${CITY:-College Station, TX}"
+CITY="${CITY:-San Francisco, CA}"
 PROFILE_USERNAME="${PROFILE_USERNAME:-isaacchacko}"
 
 # --- Weather from wttr.in (no API key needed) ---
@@ -49,7 +49,7 @@ VIEW_ESCAPED="$(escape_sed "$VIEW_COUNT")"
 TS_ESCAPED="$(escape_sed "$TIMESTAMP")"
 
 # Replace placeholders in README copied from template.
-sed -i "s/\$weatherInDegrees/${TEMP_ESCAPED}/g" "$README_PATH"
+sed -i "s/\$weatherInDegrees/${TEMP_ESCAPED}°F/g" "$README_PATH"
 sed -i "s/\$verbalWeatherDescrip/${DESC_ESCAPED}/g" "$README_PATH"
 sed -i "s/\$viewCount/${VIEW_ESCAPED}/g" "$README_PATH"
 sed -i "s/\$timestamp/${TS_ESCAPED}/g" "$README_PATH"
