@@ -1,0 +1,39 @@
+name: Update README weather + views
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    env:
+      CITY: "College Station, TX"    # change this later to swap city
+      PROFILE_USERNAME: "isaacchacko" # for profile view counter endpoint
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update README tokens
+        run: bash scripts/update_readme.sh
+
+      - name: Commit changes if needed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet README.md; then
+            echo "No README changes to commit."
+            exit 0
+          fi
+
+          git add README.md
+          git commit -m "chore(readme): update weather, views, and timestamp"
+          git push
